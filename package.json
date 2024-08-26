@@ -1,20 +1,20 @@
 {
-  "name": "npm-package-stack",
+  "name": "@rahulg-ghost/hello-world",
   "version": "0.0.1",
-  "description": "",
+  "description": "A simple hello world package",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "homepage": "https://github.com/rahu1gg/npm-package-stack",
+  "homepage": "https://github.com/rahu1gg/package-hello-world",
   "repository": {
-    "url": "https://github.com/rahu1gg/npm-package-stack"
+    "url": "https://github.com/rahu1gg/package-hello-world"
   },
   "scripts": {
     "build": "tsup",
     "lint": "tsc"
   },
-  "keywords": ["npm package", "stack", "starter kit"],
-  "author": "rahu1gg",
+  "keywords": ["npm package", "hello world"],
+  "author": "rahul-ghost",
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
