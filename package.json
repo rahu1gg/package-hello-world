@@ -1,6 +1,6 @@
 {
   "name": "ghost-hello-world",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple hello world package",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -13,11 +13,15 @@
     "build": "tsup",
     "lint": "tsc"
   },
-  "keywords": ["npm package", "hello world"],
+  "keywords": [
+    "npm package",
+    "hello world"
+  ],
   "author": "rahul-ghost",
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
+    "@changesets/cli": "^2.27.7",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   }
