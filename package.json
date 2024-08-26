@@ -1,5 +1,5 @@
 {
-  "name": "@rahulg-ghost/hello-world",
+  "name": "ghost-hello-world",
   "version": "0.0.1",
   "description": "A simple hello world package",
   "main": "./dist/index.js",
@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "homepage": "https://github.com/rahu1gg/package-hello-world",
   "repository": {
-    "url": "https://github.com/rahu1gg/package-hello-world"
+    "url": "git+https://github.com/rahu1gg/package-hello-world.git"
   },
   "scripts": {
     "build": "tsup",
