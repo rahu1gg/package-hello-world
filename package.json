@@ -1,0 +1,24 @@
+{
+  "name": "npm-package-stack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/rahu1gg/npm-package-stack",
+  "repository": {
+    "url": "https://github.com/rahu1gg/npm-package-stack"
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc"
+  },
+  "keywords": ["npm package", "stack", "starter kit"],
+  "author": "rahu1gg",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
